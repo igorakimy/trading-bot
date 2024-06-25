@@ -1,0 +1,16 @@
+# идентификатор бота
+botId: 1
+# API ключ от биржи Binance для торговли фьючерсами
+binanceApiKey: key
+# секрет от биржи Binance для торговли фьючерсами
+binanceApiSecret: secret
+# валютная пара для торговли
+symbol: ETHUSDT
+# интервал получаемых свечей
+interval: 5m
+# максимальная сумма для открытия позиции
+maxPositionAmount: 0.03
+# процент закрытия ордера
+stopPercent: 0.01
+# путь к файлу, где сохраняются свечи
+klinesCsvFile: ./data/klines.csv
